@@ -1,16 +1,101 @@
+ /* *{
+    box-sizing: border-box;
+} 
+ */
+
+
+
+
 body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../images/background_img.png);
-    /* line-height: 1.5;  */
+    background-image: url(../images/gravel.png);
+    line-height: 1.5;  
 }
+
+/* header{
+    background-color:white;
+    border-bottom: 2px solid grey; 
+} */
+
+
+
+
+.flex-container{
+    /* width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; */ 
+
+  display: flex;
+   flex-wrap: wrap; 
+   width: 960px; 
+   background-color:white;
+   padding-left: 5%;
+ 
+   margin: 0 auto;
+   margin-left: 10%;
+   margin-bottom: 2%;
+   border-bottom: 2px solid grey;
+   
+   
+    /* background-color:white;
+   border-bottom: 2px solid grey;  */
+}
+
+
+ .left-column{
+    width: 25%;  
+
+}
+
+.color-headed{
+   
+    background-color: #4aaaa5;
+    
+    color: white;
+    padding: 20px;
+    margin-bottom: 0%;
+    margin-top:0% ;
+    text-align: center;
+    
+
+}
+
+ .right-column{
+    width: 70%;
+   text-align: right;  
+   /* width: 90%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between; */
+
+}
+
+nav{
+    align-content: center;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+    text-align: center;
+    margin-bottom: 0%;
+   
+}
+
+
+
 .container{
     width: 960px;
-    margin: 0 auto;
-    margin-left: 10% ;
+    margin-top: 2%;
+    margin-left: 10% ; 
+    display: flex;
+    flex-wrap: wrap; 
     background-color:white;
-    padding-left: 5%;
-    float: left;
+     padding-left: 5%;  
+  
     margin-bottom: 20%;
     border: grey;
     
@@ -19,44 +104,38 @@ body{
 }
 h2{
     color: #4aaaa5;
+    border-bottom: 2px solid grey;
+   
+    
     
 }
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 960px;
-    background-color:white;
-    padding-left: 5%;
-    float: left;
-    margin: 0 auto;
-    margin-left: 10%;
-    margin-bottom: 2%;
-    border: grey;
-}
 
-.left-column{
-    width: 25%;
-
-}
-.right-column{
-    width: 70%;
-    text-align: right;
-}
-.color-headed{
-   
-    background-color: #4aaaa5;
-    color: white;
-    padding: 20px;
-    text-align: center;
-
-}
 
 .bio_img {
     width: 200px;
-    float: left;
+    /* float: left; */
     margin: 2%;
 }
 
 /* .container-bottom{
     background-color: grey;
      */
+.container2{
+ 
+    background-color:grey;
+    text-align: center;
+    
+    border-top: 5px solid cyan; 
+}
+
+.color-button{
+    
+    background-color: #4aaaa5;
+    
+    color: white;
+    padding: 20px;
+    margin-bottom: 0%;
+    margin-top:0% ;
+    text-align: center;
+
+}
