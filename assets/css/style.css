@@ -158,3 +158,29 @@ footer{
    margin-bottom: 20px;
 }
 
+.flex-container label{
+   display: block;
+   padding: 1rem 0 .5rem 0;
+   color: grey;
+}
+
+ input , textarea{
+  /* display: block; */
+  width: 100%;
+  padding: 10px;
+  
+ }
+  
+#submitbtn{
+  border:0;
+  background-color: teal;
+  color: white;
+  width: auto;
+  margin-top: 5px;
+  padding: 10px 15px;
+  
+ 
+}
+
+
+
