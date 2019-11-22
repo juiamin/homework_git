@@ -92,18 +92,25 @@ main h2{
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
 }
 
+.flex-container img{
+  width: 200px;
+}
+
+
+
 .flex-item{
-  width: 45%;
+  width: 30%;
   /* background-color: grey; */
   font-size: 22px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
+  margin-left: 31px;
   background-size: cover;
-  padding: 20px 0;
+  padding: 8px 0;
   min-height: 250px;
   display: flex;
   flex-direction: column;
@@ -140,3 +147,14 @@ main h2{
   padding: 10px 5px;
   text-align: center;
 }
+
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  border-top:5px solid teal;
+  color: beige;
+  padding-top: 30px;
+   margin-bottom: 20px;
+}
+
