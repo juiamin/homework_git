@@ -42,6 +42,8 @@ header {
   color: white;
 }
 
+
+
 .header-wrapper nav {
   margin-left: auto;
   display: flex;
@@ -96,10 +98,18 @@ main h2{
   width: 100%;
 }
 
+.flex-container form{
+  width:960px ;
+}
+
 .flex-container img{
   width: 200px;
 }
 
+.flex-container p{
+  color: rgb(112, 109, 109);
+  
+}
 
 
 .flex-item{
