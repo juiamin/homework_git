@@ -97,18 +97,21 @@ main h2{
   /* justify-content: space-between; */
   width: 100%;
 }
-
-.flex-container form{
-  width:960px ;
+form{
+  width: 960px ;
 }
 
-.flex-container img{
+
+
+.profile-img {
   width: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-.flex-container p{
+main p {
   color: rgb(112, 109, 109);
-  
 }
 
 
